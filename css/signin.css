@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f7c547;  
+}
+
+/* nav bar*/
+nav{
+    height: 50px;
+    width: 90vw;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo>h1{
+    color: white;
+    text-shadow: 10px 10px 20px whitesmoke;
+    padding-left: 30px;
+}
+
+.nav-buttons{
+    margin-right: 30px;
+}
+
+.nav-buttons>button{
+    border: 2px solid white;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.nav-buttons>button:hover{
+    background-color: white;
+    color: #f7c547;
+    cursor: pointer;
+}
+
+/*container */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 60vh;
+    margin: 70px 0 0 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.image-holder{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-holder>img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 2px solid #f7c547;
+}
+
+.form-holder{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.form-items{
+    text-align: center;
+    background-color: white;
+}
+
+.form-items>h2,h3{
+    color: #f7c547;
+}
+
+
+.form-items>input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #f7c547;
+    font-weight: bolder;
+}
+
+.form-items>input:hover{
+    border: 2px solid black;
+    color: black;
+}
+
+.form-items>button{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: #f7c547;
+    color: white;
+}
+
+.form-items>button:hover{
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.form-items>a{
+    background-color: white;
+    font-weight: bolder;
+    font-size: small;
+    margin: 5px;
+}
+
+#newuser{
+    color: blue;
+}
+
+#forgotpassword{
+    color: red;
+}
